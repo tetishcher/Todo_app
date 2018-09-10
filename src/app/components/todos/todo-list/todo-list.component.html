@@ -1,0 +1,7 @@
+<ul class="unstyled">
+    <todo-item
+      ng-repeat="todo in $ctrl.todos | filter: $ctrl.filterValue"
+      todo="todo"
+      index='$index'>
+    </todo-item>
+  </ul>
